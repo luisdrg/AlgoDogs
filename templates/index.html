@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AlgoDogs</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <h1>The Algorithm provides Dogs🐶 </h1>
+    <p>Click the button to fetch a new dog!</p>
+
+    <form method="POST">
+        <button type="submit">Fetch!</button>
+    </form>
+
+    {% if dog_url %}
+        <img src="{{ dog_url }}" alt="Random Dog">
+    {% endif %}
+
+</body>
+</html>
