@@ -8,7 +8,7 @@ The Flask app works. I was able to set up a route, make a POST request, call an 
 
 # What didn’t work
 
-Some small things took longer than expected, especially dealing with templates and static files, I had to look up documentation because I kept having a typo and was too stubborn to use AI.
+Some small things took longer than expected, especially dealing with templates and static files, I had to look up documentation because I kept having a typo and was too stubborn to use AI. Also, I should have told ChatGPT to not do include emojis. I do not like them so I removed them manually.
 
 # What I learned
 
